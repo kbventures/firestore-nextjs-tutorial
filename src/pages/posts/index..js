@@ -10,7 +10,7 @@ const Posts = (props) => {
       {entriesData.map(entry => (
         <div key={entry.id}>
           <Link href={`/posts/${entry.slug}`}>
-            <a>{entry.title}</a>
+            {entry.title}
           </Link>
           <br />
         </div>
