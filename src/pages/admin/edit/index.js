@@ -15,7 +15,7 @@ const List = () => {
       {entries.map(entry => (
         <div key={entry.id}>
           <Link href={`/admin/edit/${entry.id}`}>
-            <a>{entry.title}</a>
+            {entry.title}
           </Link>
           <br/>
         </div>
