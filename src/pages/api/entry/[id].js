@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import db from '../../../utils/db';
+import db from '@/utils/db';
 
 export default async (req, res) => {
   const { id } = req.query;

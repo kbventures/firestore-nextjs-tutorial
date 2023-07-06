@@ -1,0 +1,1 @@
+https://blog.logrocket.com/nextjs-cloud-firestore-full-stack-app-tutorial/
